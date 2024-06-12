@@ -1,0 +1,23 @@
+Tech: React
+company name: s1media.in
+
+
+*s1media have 5 children companies
+1. hotel 3-4 star video shooting upload on channel
+2. realstate
+3. animal feed
+4.
+5.
+
+
+footer should display:
+"powered by kodeinnovate"
+
+
+==Website requirements==
+- logo should be s1media (for now)
+- dropdown on navbar with 4 options
+  -home 
+  -about us
+  -our services
+  -contact us
