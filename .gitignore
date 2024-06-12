@@ -11,8 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
-C:\Users\Farid\Desktop\s1media\notes.txt
-.gitignore
+
+/notes.txt
+/.gitignore
 
 # Editor directories and files
 .vscode/*
