@@ -12,8 +12,8 @@ dist
 dist-ssr
 *.local
 
-/notes.txt
-/.gitignore
+../notes.txt
+../.gitignore
 
 # Editor directories and files
 .vscode/*
