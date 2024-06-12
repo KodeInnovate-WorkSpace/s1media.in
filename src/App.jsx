@@ -1,12 +1,14 @@
 
+import { MyFooter } from "./components/myfooter";
+import MyNavbar from "./components/navbar";
+
 function App() {
-  
   return (
     <>
-     <h1>Hello World</h1>
-     <h1>Website</h1>
+      <MyNavbar />
+      <MyFooter/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
