@@ -1,16 +1,33 @@
 
-import CenterHero from "./components/center_hero";
-import Hero from "./components/hero";
-import { MyFooter } from "./components/myfooter";
-import MyNavbar from "./components/navbar";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { HomePage } from './pages/home.page.jsx';
+import { AboutUsPage } from './pages/about_us.page.jsx';
+import { OurServicesPage } from './pages/our_services.page.jsx';
+import { ContactUsPage } from './pages/contact_us.page.jsx';
+
+const myRouter = createBrowserRouter([
+  {
+    path: '/',
+    element: <HomePage />,
+  },
+  {
+    path: '/about',
+    element: <AboutUsPage />,
+  },
+  {
+    path: '/services',
+    element: <OurServicesPage />,
+  },
+  {
+    path: '/contact',
+    element: <ContactUsPage />,
+  },
+]);
 
 function App() {
   return (
     <>
-      <MyNavbar />
-      <CenterHero/>
-      <Hero/>
-      <MyFooter/>
+      <RouterProvider router={myRouter} />
     </>
   );
 }

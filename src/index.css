@@ -1,0 +1,8 @@
+.dropdown-menu-right .dropdown-item:hover {
+    background-color: red;
+    color: white;
+}
+
+.dropItem:hover{
+background-color: red;    
+}
