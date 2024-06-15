@@ -1,25 +1,50 @@
-import React from 'react'
+import React from "react";
 
 const Hero = () => {
-    return (
-        <>
-            <div className="container col-xxl-8 px-4 py-5 bg-black text-white">
-                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div className="col-10 col-sm-8 col-lg-6">
-                        <img src="https://picsum.photos/seed/picsum/200/300" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
-                    </div>
-                    <div className="col-lg-6">
-                        <h1 className="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                        <p className="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" className="btn btn-danger btn-lg px-4 me-md-2">Primary</button>
-                            <button type="button" className="btn btn-outline-danger btn-lg px-4">Default</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-}
+  return (
+    <>
+      <div className="container col-xxl-8 px-4 py-5 bg-black text-white">
+        <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+          {/* Image  */}
+          <div className="col-10 col-sm-8 col-lg-6">
+            <img
+              src="https://picsum.photos/seed/picsum/200/300"
+              className="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div className="col-lg-6">
+            <h1 className="display-5 fw-bold lh-1 mb-3">Our Mission</h1>
+            <p className="lead">
+              Our mission is to provide businesses with a platform to reach a
+              larger audience through engaging video content, enhancing their
+              visibility and growth without upfront costs.
+            </p>
+            {/* <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button
+                type="button"
+                className="btn btn-danger btn-lg px-4 me-md-2"
+              >
+                Primary
+              </button>
+              <button
+                type="button"
+                className="btn btn-outline-danger btn-lg px-4"
+              >
+                Default
+              </button>
+            </div> */}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Hero
+// *Our Mission*
+// Our mission is to provide businesses with a platform to reach a larger audience through engaging video content, enhancing their visibility and growth without upfront costs.
+
+export default Hero;

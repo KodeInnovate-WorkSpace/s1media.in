@@ -6,3 +6,30 @@
 .dropItem:hover{
 background-color: red;    
 }
+
+/* list hover style  */
+
+.list-group-item {
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .list-group-item:hover {
+    padding-left: 30px; /* Adjust the value as needed */
+  }
+  
+  .list-group-item::before {
+    content: attr(data-number);
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .list-group-item:hover::before {
+    opacity: 1;
+    left: 10px; /* Adjust the value as needed */
+  }
+  
