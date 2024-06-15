@@ -29,16 +29,6 @@ export const ServiceCard = () => {
                     <Card className="card border-dark">
                       <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                         <div className="me-3 text-primary">
-                          {/* <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            fill="red"
-                            className="bi bi-basket2-fill"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1" />
-                          </svg> */}
                           <img
                             src="real_estate.svg"
                             width={48}
@@ -56,13 +46,6 @@ export const ServiceCard = () => {
                             <li>Video tours of properties</li>
                             <li>Highlighting unique features and amenities</li>
                           </ul>
-                          {/* 
-                          <p className="m-0 text-secondary">
-                            Video tours of properties
-                          </p>
-                          <p className="m-0 text-secondary">
-                            Highlighting unique features and amenities
-                          </p> */}
                         </div>
                       </div>
                     </Card>
@@ -73,16 +56,6 @@ export const ServiceCard = () => {
                     <Card className="card border-dark">
                       <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                         <div className="me-3 text-primary">
-                          {/* <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            fill="red"
-                            className="bi bi-basket2-fill"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1" />
-                          </svg> */}
                           <img
                             src="restaurant.svg"
                             width={48}
@@ -102,13 +75,6 @@ export const ServiceCard = () => {
                             </li>
                             <li>Showcasing special dishes and events</li>
                           </ul>
-                          {/* 
-                          <p className="m-0 text-secondary">
-                            Video tours of properties
-                          </p>
-                          <p className="m-0 text-secondary">
-                            Highlighting unique features and amenities
-                          </p> */}
                         </div>
                       </div>
                     </Card>
@@ -118,16 +84,6 @@ export const ServiceCard = () => {
                     <Card className="card border-dark">
                       <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                         <div className="me-3 text-primary">
-                          {/* <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            fill="red"
-                            className="bi bi-basket2-fill"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1" />
-                          </svg> */}
                           <img
                             src="cooking.svg"
                             width={48}
@@ -145,13 +101,6 @@ export const ServiceCard = () => {
                             <li>Step-by-step cooking videos</li>
                             <li>Featuring professional chefs and home cooks</li>
                           </ul>
-                          {/* 
-                          <p className="m-0 text-secondary">
-                            Video tours of properties
-                          </p>
-                          <p className="m-0 text-secondary">
-                            Highlighting unique features and amenities
-                          </p> */}
                         </div>
                       </div>
                     </Card>
@@ -161,16 +110,6 @@ export const ServiceCard = () => {
                     <Card className="card border-dark">
                       <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                         <div className="me-3 text-primary">
-                          {/* <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            fill="red"
-                            className="bi bi-basket2-fill"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1" />
-                          </svg> */}
                           <img
                             src="hotel.svg"
                             width={48}
@@ -190,13 +129,6 @@ export const ServiceCard = () => {
                             <li>Virtual tours of hotel facilities</li>
                             <li>Highlighting services and guest experience</li>
                           </ul>
-                          {/* 
-                          <p className="m-0 text-secondary">
-                            Video tours of properties
-                          </p>
-                          <p className="m-0 text-secondary">
-                            Highlighting unique features and amenities
-                          </p> */}
                         </div>
                       </div>
                     </Card>
@@ -206,16 +138,6 @@ export const ServiceCard = () => {
                     <Card className="card border-dark">
                       <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                         <div className="me-3 text-primary">
-                          {/* <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            fill="red"
-                            className="bi bi-basket2-fill"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1" />
-                          </svg> */}
                           <img
                             src="agriculture.svg"
                             width={48}
