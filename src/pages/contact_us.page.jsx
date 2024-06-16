@@ -26,11 +26,14 @@ const ContactDetails = () => {
     },
   ];
 
-  //   const socialMediaIcons = [
-  //     <FaTwitter key="twitter" />,
-  //     <FaFacebookF key="facebook" />,
-  //     <FaYoutube key="youtube" />,
-  //   ];
+  const socialMediaIcons = [
+    // <FaTwitter key="twitter" />,
+    // <FaFacebookF key="facebook" />,
+    // <FaYoutube key="youtube" />,
+    "Twitter",
+    "Facebook",
+    "Youtube",
+  ];
 
   return (
     <div className="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -43,14 +46,14 @@ const ContactDetails = () => {
           <hr className="w-100" />
         </React.Fragment>
       ))}
-      {/* <p className="mb-2">Follow me:</p>
+      <p className="mb-2">Our Socials:</p>
       <div className="d-flex pt-2">
         {socialMediaIcons.map((icon, index) => (
-          <a key={index} className="btn btn-square btn-primary me-2" href="">
+          <a key={index} className="btn btn-square btn-danger me-2" href="">
             {icon}
           </a>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };

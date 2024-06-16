@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Link } from "react-router-dom";
 export const MyFooter = () => {
   return (
     <>
@@ -26,35 +25,23 @@ export const MyFooter = () => {
               <Col md="2" lg="2" xl="2" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Navigation</h6>
                 <p>
-                  {/* <Link to={"/"} className="text-white">
-                    Home
-                  </Link> */}
                   <a href="/" className="text-white">
                     Home
                   </a>
                 </p>
                 <p>
-                  {/* <Link to={"/about"} className="text-white">
-                    About Us
-                  </Link> */}
                   <a href="/about" className="text-white">
                     About Us
                   </a>
                 </p>
                 <p>
-                  {/* <Link to={"/services"} className="text-white">
-                    Our Services
-                  </Link> */}
                   <a href="/services" className="text-white">
                     Our Services
                   </a>
                 </p>
                 <p>
-                  {/* <Link to={"/contact"} className="text-white">
-                    Contact Us
-                  </Link> */}
                   <a href="/contact" className="text-white">
-                    Contact
+                    Contact Us
                   </a>
                 </p>
               </Col>

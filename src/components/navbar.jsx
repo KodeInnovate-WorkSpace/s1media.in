@@ -21,8 +21,11 @@ export const MyNavbar = () => {
           style={{ height: "20px", width: "900px" }}
         ></div>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="custom-toggler"
+        />
+
         <Navbar.Collapse id="basic-navbar-nav">
           {/* Desktop Navigation Links */}
           <Nav className=" d-md-none d-xs-block">
