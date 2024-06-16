@@ -1,7 +1,12 @@
-import { Container, Navbar, Nav, Dropdown, ButtonGroup } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Dropdown from "react-bootstrap/Dropdown";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
+
 import { Link } from "react-router-dom";
 
-export const MyNavbar = () => {
+function Sidemenu() {
   return (
     <Navbar bg="black" expand="lg">
       <Container>
@@ -21,9 +26,8 @@ export const MyNavbar = () => {
           style={{ height: "20px", width: "900px" }}
         ></div>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="">
           {/* Desktop Navigation Links */}
           <Nav className=" d-md-none d-xs-block">
             <Link to="/" className="text-decoration-none text-white">
@@ -65,4 +69,6 @@ export const MyNavbar = () => {
       </Container>
     </Navbar>
   );
-};
+}
+
+export default Sidemenu;

@@ -168,7 +168,7 @@ export const ServiceCard = () => {
         </div>
 
         {/* How it works  */}
-        <div className="container">
+        <div className="container mt-4 pt-4">
           <div className="row justify-content-md-center">
             <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
               <h2 className="mb-4 display-5 text-white text-center">

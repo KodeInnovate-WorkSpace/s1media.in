@@ -33,3 +33,9 @@ background-color: red;
     left: 10px; /* Adjust the value as needed */
   }
   
+  .navbar-toggler-icon{
+    /* background-color: rgba(226, 41, 41, 0.829); */
+    background-color: rgba(117, 117, 117, 0.74);
+    /* opacity: .5; */
+    border-radius: 5px;
+  }
