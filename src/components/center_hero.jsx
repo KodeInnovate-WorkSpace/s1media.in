@@ -1,13 +1,13 @@
 import React from "react";
 
-const CenterHero = ({ title , content }) => {
+const CenterHero = ({ title , content, img }) => {
   return (
     <>
       <div className="px-4 pt-5 my-5 text-center bg-black text-white">
         {/* image */}
         <div className="overflow-hidden" style={{ maxHeight: "30vh" }}>
                     <div className="container px-5">
-                        <img src="https://picsum.photos/seed/picsum/200/300" className="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy" />
+                        <img src={img} className="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy" />
                     </div>
                 </div>
 

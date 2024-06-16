@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const Hero = ({title, content, img}) => {
   return (
     <>
       <div className="container col-xxl-8 px-4 py-5 bg-black text-white">
@@ -8,7 +8,7 @@ const Hero = () => {
           {/* Image  */}
           <div className="col-10 col-sm-8 col-lg-6">
             <img
-              src="https://picsum.photos/seed/picsum/200/300"
+              src={img}
               className="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="700"
@@ -17,11 +17,9 @@ const Hero = () => {
             />
           </div>
           <div className="col-lg-6">
-            <h1 className="display-5 fw-bold lh-1 mb-3">Our Mission</h1>
+            <h1 className="display-5 fw-bold lh-1 mb-3">{title}</h1>
             <p className="lead">
-              Our mission is to provide businesses with a platform to reach a
-              larger audience through engaging video content, enhancing their
-              visibility and growth without upfront costs.
+              {content}
             </p>
             {/* <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <button

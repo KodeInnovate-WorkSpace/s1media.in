@@ -2,7 +2,6 @@ import React from "react";
 import { MyNavbar } from "../components/navbar";
 import { Col, Container, Row, Card } from "react-bootstrap";
 import { MyFooter } from "../components/myfooter";
-import Button from "react-bootstrap/Button";
 
 export const AboutUsPage = () => {
   return (
@@ -35,9 +34,6 @@ export const AboutUsPage = () => {
                 border="dark text-white m-2"
                 style={{ width: "18rem", backgroundColor: "black" }}
               >
-                {/* <Card.Header className="bg-black fs-5">
-                  Free Shooting
-                </Card.Header> */}
                 <Card.Body>
                   <Card.Title>Free Shooting</Card.Title>
                   <Card.Text>
@@ -50,9 +46,6 @@ export const AboutUsPage = () => {
                 border="dark text-white m-2"
                 style={{ width: "18rem", backgroundColor: "black" }}
               >
-                {/* <Card.Header className="fs-5">
-                  Free Marketing for 2 Years
-                </Card.Header> */}
                 <Card.Body>
                   <Card.Title>Free Marketing for 2 Years</Card.Title>
                   <Card.Text>
@@ -66,9 +59,6 @@ export const AboutUsPage = () => {
                 border="dark text-white m-2"
                 style={{ width: "18rem", backgroundColor: "black" }}
               >
-                {/* <Card.Header className="bg-black fs-5">
-                  Affordable Rates
-                </Card.Header> */}
                 <Card.Body>
                   <Card.Title>Affordable Rates</Card.Title>
                   <Card.Text>

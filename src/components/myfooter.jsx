@@ -26,24 +26,36 @@ export const MyFooter = () => {
               <Col md="2" lg="2" xl="2" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Navigation</h6>
                 <p>
-                  <Link to={"/"} className="text-white">
+                  {/* <Link to={"/"} className="text-white">
                     Home
-                  </Link>
+                  </Link> */}
+                  <a href="/" className="text-white">
+                    Home
+                  </a>
                 </p>
                 <p>
-                  <Link to={"/about"} className="text-white">
+                  {/* <Link to={"/about"} className="text-white">
                     About Us
-                  </Link>
+                  </Link> */}
+                  <a href="/about" className="text-white">
+                    About Us
+                  </a>
                 </p>
                 <p>
-                  <Link to={"/services"} className="text-white">
+                  {/* <Link to={"/services"} className="text-white">
                     Our Services
-                  </Link>
+                  </Link> */}
+                  <a href="/services" className="text-white">
+                    Our Services
+                  </a>
                 </p>
                 <p>
-                  <Link to={"/contact"} className="text-white">
+                  {/* <Link to={"/contact"} className="text-white">
                     Contact Us
-                  </Link>
+                  </Link> */}
+                  <a href="/contact" className="text-white">
+                    Contact
+                  </a>
                 </p>
               </Col>
 
