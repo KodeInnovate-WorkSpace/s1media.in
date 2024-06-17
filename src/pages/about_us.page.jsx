@@ -31,11 +31,11 @@ export const AboutUsPage = () => {
                 <h2 className="text-center mt-4">Why Choose Us?</h2>
                 <Card
                   border="dark text-white m-2"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  style={{ width: "19rem", backgroundColor: "black", cursor: "pointer" }}
                 >
                   <Card.Body>
                     <Card.Title>Free Shooting</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{userSelect: "none"}}>
                       We do not charge for shooting your property or business.
                     </Card.Text>
                   </Card.Body>
@@ -43,11 +43,11 @@ export const AboutUsPage = () => {
 
                 <Card
                   border="dark text-white m-2"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  style={{ width: "19rem", backgroundColor: "black", cursor: "pointer" }}
                 >
                   <Card.Body>
                     <Card.Title>Free Marketing for 2 Years</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{userSelect: "none"}}>
                       Enjoy two years of free marketing on our YouTube channel
                       and social media.
                     </Card.Text>
@@ -56,11 +56,11 @@ export const AboutUsPage = () => {
 
                 <Card
                   border="dark text-white m-2"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  style={{ width: "19rem", backgroundColor: "black" , cursor: "pointer" }}
                 >
                   <Card.Body>
                     <Card.Title>Affordable Rates</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{userSelect: "none"}}>
                       After two years, continue your marketing for just 50 RS
                       per day.
                     </Card.Text>

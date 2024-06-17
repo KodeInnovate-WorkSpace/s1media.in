@@ -29,7 +29,7 @@ export const ServiceCard = () => {
                     <Row>
                       {/* Card 1  */}
                       <Col lg={4} md={6} className="col-12 mb-3">
-                        <Card className="card border-dark">
+                        <Card className="card border-dark" style={{ height: "200px" }}>
                           <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                             <div className="me-3 text-primary">
                               <img
@@ -57,7 +57,7 @@ export const ServiceCard = () => {
 
                       {/* Card 2  */}
                       <Col lg={4} md={6} className="col-12 mb-3">
-                        <Card className="card border-dark">
+                        <Card className="card border-dark" style={{ height: "200px" }}>
                           <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                             <div className="me-3 text-primary">
                               <img
@@ -86,7 +86,10 @@ export const ServiceCard = () => {
                       {/* Card 3  */}
 
                       <Col lg={4} md={6} className="col-12 ">
-                        <Card className="card border-dark">
+                        <Card
+                          className="card border-dark"
+                          style={{ height: "200px" }}
+                        >
                           <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                             <div className="me-3 text-primary">
                               <img
@@ -103,9 +106,9 @@ export const ServiceCard = () => {
                                 style={{ listStyle: "none", padding: "0" }}
                               >
                                 <li>
-                                  Capturing the ambiance and culinary delights
+                                  Capturing the ambiance & culinary delights
                                 </li>
-                                <li>Showcasing special dishes and events</li>
+                                <li>Showcasing special dishes & events</li>
                               </ul>
                             </div>
                           </div>
@@ -118,7 +121,7 @@ export const ServiceCard = () => {
                     <Row>
                       {/* Card 4  */}
                       <Col lg={4} md={6} className="col-12 mb-3">
-                        <Card className="card border-dark">
+                        <Card className="card border-dark" style={{ height: "200px" }}>
                           <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                             <div className="me-3 text-primary">
                               <img
@@ -148,7 +151,7 @@ export const ServiceCard = () => {
                       {/* Card 5  */}
 
                       <Col lg={4} md={6} className="col-12">
-                        <Card className="card border-dark">
+                        <Card className="card border-dark" style={{ height: "200px" }}>
                           <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                             <div className="me-3 text-primary">
                               <img
