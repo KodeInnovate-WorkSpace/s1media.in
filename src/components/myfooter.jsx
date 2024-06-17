@@ -2,7 +2,16 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
+
 export const MyFooter = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <div className="text-center text-lg-start bg-black text-white">
@@ -25,24 +34,36 @@ export const MyFooter = () => {
               <Col md="2" lg="2" xl="2" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Navigation</h6>
                 <p>
-                  <a href="/" className="text-white">
+                  <Link to="/" className=" text-white" onClick={scrollToTop}>
                     Home
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/about" className="text-white">
+                  <Link
+                    to="/about"
+                    className=" text-white"
+                    onClick={scrollToTop}
+                  >
                     About Us
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/services" className="text-white">
+                  <Link
+                    to="/services"
+                    className=" text-white"
+                    onClick={scrollToTop}
+                  >
                     Our Services
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/contact" className="text-white">
+                  <Link
+                    to="/contact"
+                    className="text-white"
+                    onClick={scrollToTop}
+                  >
                     Contact Us
-                  </a>
+                  </Link>
                 </p>
               </Col>
 
