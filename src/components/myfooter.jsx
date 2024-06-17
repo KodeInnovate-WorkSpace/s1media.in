@@ -1,8 +1,6 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
+import { Container, Navbar, Row, Col } from "react-bootstrap";
 
 export const MyFooter = () => {
   const scrollToTop = () => {
@@ -19,10 +17,19 @@ export const MyFooter = () => {
           <Container className="text-center text-md-start mt-5">
             <Row className="mt-3">
               <Col md="3" lg="4" xl="3" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <i icon="gem" className="me-3" />
-                  S1Media
-                </h6>
+              
+                <Navbar.Brand
+                  style={{ fontWeight: "bold", fontSize: "1.5rem" }}
+                >
+                  <Link
+                    to="/"
+                    className="text-decoration-none text-danger text-uppercase"
+                    onClick={scrollToTop}
+                  >
+                    S1Media
+                  </Link>
+                </Navbar.Brand>
+
                 <p>
                   S1Media is a dynamic media company dedicated to helping
                   businesses in the real estate, restaurant, culinary,
@@ -87,7 +94,7 @@ export const MyFooter = () => {
           Powered by{" "}
           <a
             href="https://kodeinnovate.in/"
-            className="text-white text-decoration-none"
+            className="text-white"
           >
             Kodeinnovate Solutions Private Limited
           </a>
