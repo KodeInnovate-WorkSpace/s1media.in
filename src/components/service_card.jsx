@@ -56,7 +56,7 @@ export const ServiceCard = () => {
                       </Col>
 
                       {/* Card 2  */}
-                      <Col lg={4} md={6} className="col-12">
+                      <Col lg={4} md={6} className="col-12 mb-3">
                         <Card className="card border-dark">
                           <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                             <div className="me-3 text-primary">
@@ -85,7 +85,7 @@ export const ServiceCard = () => {
 
                       {/* Card 3  */}
 
-                      <Col lg={4} md={6} className="col-12 mb-3">
+                      <Col lg={4} md={6} className="col-12 ">
                         <Card className="card border-dark">
                           <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                             <div className="me-3 text-primary">
@@ -117,7 +117,7 @@ export const ServiceCard = () => {
                   <Slide>
                     <Row>
                       {/* Card 4  */}
-                      <Col lg={4} md={6} className="col-12">
+                      <Col lg={4} md={6} className="col-12 mb-3">
                         <Card className="card border-dark">
                           <div className="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                             <div className="me-3 text-primary">
