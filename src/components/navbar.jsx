@@ -55,16 +55,16 @@ export const MyNavbar = () => {
             </Dropdown.Toggle>
             <Dropdown.Menu className="dropdown-menu-right bg-white text-black border">
               <Link to={"/"} className="text-decoration-none">
-                <div className="dropdown-item text-black">Home</div>
+                <span className="dropdown-item dropItem">Home</span>
               </Link>
               <Link to={"/about"} className="text-decoration-none">
-                <div className="dropdown-item text-black">About Us</div>
+                <span className="dropdown-item ">About Us</span>
               </Link>
               <Link to={"/services"} className="text-decoration-none">
-                <div className="dropdown-item text-black">Our Services</div>
+                <span className="dropdown-item ">Our Services</span>
               </Link>
               <Link to={"/contact"} className="text-decoration-none">
-                <div className="dropdown-item text-black">Contact Us</div>
+                <span className="dropdown-item ">Contact Us</span>
               </Link>
             </Dropdown.Menu>
           </Dropdown>

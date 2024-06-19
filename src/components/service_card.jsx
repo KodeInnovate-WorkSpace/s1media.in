@@ -58,19 +58,11 @@ export const ServiceCard = () => {
 
                 {serviceInfo.map((info, index) => (
                   <Slide key={info.title}>
-                    {index % 2 === 0 ? (
-                      <Hero
-                        title={info.title}
-                        content={info.desc}
-                        img={info.image}
-                      />
-                    ) : (
-                      <ReverseHero
-                        title={info.title}
-                        content={info.desc}
-                        img={info.image}
-                      />
-                    )}
+                    <Hero
+                      title={info.title}
+                      content={info.desc}
+                      img={info.image}
+                    />
                   </Slide>
                 ))}
               </div>

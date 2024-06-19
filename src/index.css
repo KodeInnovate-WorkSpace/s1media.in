@@ -3,10 +3,9 @@
   color: white;
 }
 
+
 .dropItem:hover {
   background-color: #221f3b;
-}
-.dropItem a:hover {
   color: white;
 }
 /* list hover style  */
