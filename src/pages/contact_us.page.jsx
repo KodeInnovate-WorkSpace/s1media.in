@@ -46,12 +46,12 @@ const ContactDetails = () => {
           <hr className="w-100" />
         </React.Fragment>
       ))}
-      <p className="mb-2">Our Socials:</p>
+      <p className="mb-2 text-black">Our Socials:</p>
       <div className="d-flex pt-2">
         {socialMediaIcons.map((icon, index) => (
           <a
             key={index}
-            style={{ backgroundColor: "#221f3b", color: "white" }}
+            style={{ backgroundColor: "#bb2d3b", color: "white" }}
             className="btn btn-square me-2"
             href=""
           >
@@ -101,11 +101,7 @@ const MyForm = () => {
           <Form.Control placeholder="Enter Message" />
         </Form.Group>
 
-        <Button
-          variant="none"
-          type="submit"
-          style={{ backgroundColor: "#221f3b", color: "white" }}
-        >
+        <Button variant="danger" type="submit" style={{ color: "white" }}>
           Submit
         </Button>
       </Form>

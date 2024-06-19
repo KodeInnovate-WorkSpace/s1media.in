@@ -47,8 +47,8 @@ export const MyNavbar = () => {
 
           <Dropdown as={ButtonGroup} className="d-none d-md-block">
             <Dropdown.Toggle
-              variant="none"
-              style={{ backgroundColor: "#221f3b", color: "white" }}
+              variant="danger"
+              style={{  color: "white" }}
               id="dropdown-basic"
             >
               Menu

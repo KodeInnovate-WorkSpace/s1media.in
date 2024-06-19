@@ -12,31 +12,32 @@ export const ServiceCard = () => {
       image: "real_estate.jpeg",
     },
     {
-      title: "Spicy Foodies",
-      desc: "Step-by-step cooking videos and featuring professional chefs and home cooks",
-      image: "cooking_tips.jpeg",
-    },
-    {
       title: "The Restro",
       desc: "Capturing the ambiance & culinary delights and Showcasing special dishes & events",
       image: "restaurant.jpeg",
-    },
-    {
-      // title: "Hotels (3-star, 4-star, 5-star)",
-      title: "Royalz Hotels 3-star, 4-star property",
-      desc: "Virtual tours of hotel facilities and highlighting services and guest experience",
-      image: "hotel.jpeg",
-    },
-    {
-      title: "Agriculture",
-      desc: "Documenting agricultural processes and products and showcasing innovative farming techniques",
-      image: "agriculture.jpeg",
     },
     {
       title: "Autoz Plus",
       desc: "Updates on new and old cars and bikes, buy and sell opportunities, market trends",
       image: "autoz.png",
     },
+    {
+      title: "The Foodizz",
+      desc: "Step-by-step cooking videos and featuring professional chefs and home cooks",
+      image: "cooking_tips.jpeg",
+    },
+
+    {
+      // title: "Hotels (3-star, 4-star, 5-star)",
+      title: "Royalz Hotels 3-star, 4-star property",
+      desc: "Virtual tours of hotel facilities and highlighting services and guest experience",
+      image: "hotel.jpeg",
+    },
+    // {
+    //   title: "Agriculture",
+    //   desc: "Documenting agricultural processes and products and showcasing innovative farming techniques",
+    //   image: "agriculture.jpeg",
+    // },
   ];
 
   return (
@@ -62,7 +63,7 @@ export const ServiceCard = () => {
               <div className="container-fluid">
                 {/* Row here  */}
 
-                {serviceInfo.map((info, index) => (
+                {serviceInfo.map((info) => (
                   <Slide key={info.title}>
                     <Hero
                       title={info.title}
