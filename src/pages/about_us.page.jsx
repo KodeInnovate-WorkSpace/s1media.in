@@ -82,8 +82,7 @@ export const AboutUsPage = () => {
                       className="text-black"
                       style={{ userSelect: "none" }}
                     >
-                      After two years, continue your marketing for just 50 RS
-                      per day.
+                      After two years, continue your marketing.
                     </Card.Text>
                   </Card.Body>
                 </Card>
