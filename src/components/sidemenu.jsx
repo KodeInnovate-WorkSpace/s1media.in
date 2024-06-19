@@ -30,16 +30,16 @@ function Sidemenu() {
         <Navbar.Collapse id="basic-navbar-nav" className="">
           {/* Desktop Navigation Links */}
           <Nav className=" d-md-none d-xs-block">
-            <Link to="/" className="text-decoration-none text-white">
+            <Link to="/" className="text-decoration-none text-black">
               Home
             </Link>
-            <Link to="/about" className="text-decoration-none text-white">
+            <Link to="/about" className="text-decoration-none text-black">
               About Us
             </Link>
-            <Link to="/services" className="text-decoration-none text-white">
+            <Link to="/services" className="text-decoration-none text-black">
               Our Services
             </Link>
-            <Link to="/contact" className="text-decoration-none text-white">
+            <Link to="/contact" className="text-decoration-none text-black">
               Contact Us
             </Link>
           </Nav>

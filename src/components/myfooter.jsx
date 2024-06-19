@@ -12,25 +12,27 @@ export const MyFooter = () => {
 
   return (
     <>
-      <div className="text-center text-lg-start bg-black text-white">
+      <div className="text-center text-lg-start text-black">
         <section>
           <Container className="text-center text-md-start mt-5">
-            <Row className="mt-3">
-              <Col md="3" lg="4" xl="3" className="mx-auto mb-4">
-              
-                <Navbar.Brand
-                  style={{ fontWeight: "bold", fontSize: "1.5rem" }}
-                >
+            <Row className="">
+              <Col md="3" lg="4" xl="3" className="mx-auto ">
+                <Navbar.Brand>
                   <Link
                     to="/"
                     className="text-decoration-none text-danger text-uppercase"
                     onClick={scrollToTop}
                   >
-                    S1Media
+                    <img
+                      src="logo.svg"
+                      alt="S1MEDIA"
+                      width={120}
+                      loading="lazy"
+                    />
                   </Link>
                 </Navbar.Brand>
 
-                <p>
+                <p className="mt-2">
                   S1Media is a dynamic media company dedicated to helping
                   businesses in the real estate, restaurant, culinary,
                   hospitality, and agricultural sectors enhance their online
@@ -41,14 +43,14 @@ export const MyFooter = () => {
               <Col md="2" lg="2" xl="2" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Navigation</h6>
                 <p>
-                  <Link to="/" className=" text-white" onClick={scrollToTop}>
+                  <Link to="/" className=" text-black" onClick={scrollToTop}>
                     Home
                   </Link>
                 </p>
                 <p>
                   <Link
                     to="/about"
-                    className=" text-white"
+                    className=" text-black"
                     onClick={scrollToTop}
                   >
                     About Us
@@ -57,7 +59,7 @@ export const MyFooter = () => {
                 <p>
                   <Link
                     to="/services"
-                    className=" text-white"
+                    className=" text-black"
                     onClick={scrollToTop}
                   >
                     Our Services
@@ -66,7 +68,7 @@ export const MyFooter = () => {
                 <p>
                   <Link
                     to="/contact"
-                    className="text-white"
+                    className="text-black"
                     onClick={scrollToTop}
                   >
                     Contact Us
@@ -89,13 +91,10 @@ export const MyFooter = () => {
         </div>
         <div
           className="text-center p-4"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+          // style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
           Powered by{" "}
-          <a
-            href="https://kodeinnovate.in/"
-            className="text-white"
-          >
+          <a href="https://kodeinnovate.in/" className="text-black">
             Kodeinnovate Solutions Private Limited
           </a>
         </div>

@@ -28,26 +28,40 @@ export const AboutUsPage = () => {
           <div className="mt-4 gap-2 d-flex justify-content-center">
             <Fade>
               <Row className="justify-content-center">
-                <h2 className="text-center mt-4">Why Choose Us?</h2>
+                <h2 className="text-center mt-4 text-black">Why Choose Us?</h2>
                 <Card
-                  border="dark text-white m-2"
-                  style={{ width: "19rem", backgroundColor: "black", cursor: "pointer" }}
+                  border="dark text-black m-2"
+                  style={{
+                    width: "19rem",
+                    backgroundColor: "white",
+                    cursor: "pointer",
+                  }}
                 >
                   <Card.Body>
                     <Card.Title>Free Shooting</Card.Title>
-                    <Card.Text style={{userSelect: "none"}}>
+                    <Card.Text
+                      className="text-black"
+                      style={{ userSelect: "none" }}
+                    >
                       We do not charge for shooting your property or business.
                     </Card.Text>
                   </Card.Body>
                 </Card>
 
                 <Card
-                  border="dark text-white m-2"
-                  style={{ width: "19rem", backgroundColor: "black", cursor: "pointer" }}
+                  border="dark text-black m-2"
+                  style={{
+                    width: "19rem",
+                    backgroundColor: "white",
+                    cursor: "pointer",
+                  }}
                 >
                   <Card.Body>
                     <Card.Title>Free Marketing for 2 Years</Card.Title>
-                    <Card.Text style={{userSelect: "none"}}>
+                    <Card.Text
+                      className="text-black"
+                      style={{ userSelect: "none" }}
+                    >
                       Enjoy two years of free marketing on our YouTube channel
                       and social media.
                     </Card.Text>
@@ -55,12 +69,19 @@ export const AboutUsPage = () => {
                 </Card>
 
                 <Card
-                  border="dark text-white m-2"
-                  style={{ width: "19rem", backgroundColor: "black" , cursor: "pointer" }}
+                  border="dark text-black m-2"
+                  style={{
+                    width: "19rem",
+                    backgroundColor: "white",
+                    cursor: "pointer",
+                  }}
                 >
                   <Card.Body>
                     <Card.Title>Affordable Rates</Card.Title>
-                    <Card.Text style={{userSelect: "none"}}>
+                    <Card.Text
+                      className="text-black"
+                      style={{ userSelect: "none" }}
+                    >
                       After two years, continue your marketing for just 50 RS
                       per day.
                     </Card.Text>
