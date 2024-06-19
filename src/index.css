@@ -33,3 +33,27 @@
   opacity: 1;
   left: 10px; /* Adjust the value as needed */
 }
+
+/* floating button  */
+/* FloatingButton.css */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 15%;
+  background-color: #221f3b; /* Change to your desired color */
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.floating-button:hover {
+  background-color: #221f3b; /* Change to your desired hover color */
+}

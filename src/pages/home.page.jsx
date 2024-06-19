@@ -3,6 +3,7 @@ import { MyNavbar } from "../components/navbar";
 import Hero from "../components/hero";
 import { MyFooter } from "../components/myfooter";
 import { Slide } from "react-awesome-reveal";
+import TopButton from "../components/scroll_top_button";
 
 export const HomePage = () => {
   return (

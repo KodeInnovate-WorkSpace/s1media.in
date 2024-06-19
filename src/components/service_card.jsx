@@ -7,7 +7,7 @@ import ReverseHero from "./reverse_hero";
 export const ServiceCard = () => {
   const serviceInfo = [
     {
-      title: "Empire Brokers",
+      title: "Deal Done Brokers",
       desc: "Video tours of properties and Highlighting uniue features and amenities",
       image: "real_estate.jpeg",
     },
@@ -22,7 +22,8 @@ export const ServiceCard = () => {
       image: "restaurant.jpeg",
     },
     {
-      title: "Hotels (3-star, 4-star, 5-star)",
+      // title: "Hotels (3-star, 4-star, 5-star)",
+      title: "Royalz Hotels 3-star, 4-star property",
       desc: "Virtual tours of hotel facilities and highlighting services and guest experience",
       image: "hotel.jpeg",
     },
