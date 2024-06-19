@@ -7,17 +7,17 @@ import ReverseHero from "./reverse_hero";
 export const ServiceCard = () => {
   const serviceInfo = [
     {
-      title: "Real Estate",
+      title: "Empire Brokers",
       desc: "Video tours of properties and Highlighting uniue features and amenities",
       image: "real_estate.jpeg",
     },
     {
-      title: "Cooking Tips",
+      title: "Spicy Foodies",
       desc: "Step-by-step cooking videos and featuring professional chefs and home cooks",
       image: "cooking_tips.jpeg",
     },
     {
-      title: "Restaurant",
+      title: "The Restro",
       desc: "Capturing the ambiance & culinary delights and Showcasing special dishes & events",
       image: "restaurant.jpeg",
     },
@@ -30,6 +30,11 @@ export const ServiceCard = () => {
       title: "Agriculture",
       desc: "Documenting agricultural processes and products and showcasing innovative farming techniques",
       image: "agriculture.jpeg",
+    },
+    {
+      title: "Autoz Plus",
+      desc: "Updates on new and old cars and bikes, buy and sell opportunities, market trends",
+      image: "autoz.png",
     },
   ];
 

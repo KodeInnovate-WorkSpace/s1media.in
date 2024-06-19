@@ -16,8 +16,8 @@ export const HomePage = () => {
         high-quality videos. Our team of professional shooting editors is
         dedicated to capturing the essence of your business and sharing it
         with a wide audience on YouTube and various social media platforms.
-        We offer two years of free marketing, and after that, our rates are
-        incredibly affordable at just 50 RS per day."
+        
+        "
           img="home.jpeg"
           isVisibleInitially
         />
