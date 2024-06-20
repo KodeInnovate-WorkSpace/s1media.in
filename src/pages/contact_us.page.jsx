@@ -116,8 +116,13 @@ const Contact = () => {
       <div className="container-xxl pb-5" id="contact">
         <div className="container py-5">
           <div className="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div className="col-lg-6">
-              <h1 className="display-5 mb-0 text-black">Contact Us</h1>
+            <div className="col-lg-6"   style={{ marginBottom: "-20px" }}>
+              <h1
+                className="display-5 mb-0 text-black"
+                style={{ marginTop: "-30px" }}
+              >
+                Contact Us
+              </h1>
             </div>
           </div>
           <div className="row g-5 text-white">
