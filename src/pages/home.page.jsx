@@ -13,7 +13,7 @@ export const HomePage = () => {
         <Hero
           title="Welcome to S1Media"
           content=" At S1Media, we specialize in showcasing your properties,
-        restaurants, cooking tips, hotels, and agricultural ventures through
+        restaurants, cooking tips, hotels, and old or new car deals ventures through
         high-quality videos. Our team of professional shooting editors is
         dedicated to capturing the essence of your business and sharing it
         with a wide audience on YouTube and various social media platforms.
