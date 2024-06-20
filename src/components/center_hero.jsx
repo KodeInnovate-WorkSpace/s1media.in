@@ -4,14 +4,14 @@ import { Fade } from "react-awesome-reveal";
 const CenterHero = ({ title, content, img }) => {
   return (
     <>
-      <div className="px-4 pt-5 my-5 text-center  text-black">
+      <div className="px-4 pt-3 text-center text-black">
         {/* image */}
         <div className="overflow-hidden" style={{ maxHeight: "65vh" }}>
           <div className="container px-5">
             <Fade>
               <img
                 src={img}
-                className="img-fluid border rounded-3 shadow-lg mb-4"
+                className="img-fluid border rounded-3 mb-4"
                 alt="Example image"
                 width="700"
                 height="500"
