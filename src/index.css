@@ -3,7 +3,6 @@
   color: white;
 }
 
-
 .dropItem:hover {
   background-color: #bb2d3b;
   color: white;
@@ -56,4 +55,7 @@
 
 .floating-button:hover {
   background-color: rgb(223, 26, 26); /* Change to your desired hover color */
+}
+
+.custom-hero {
 }
