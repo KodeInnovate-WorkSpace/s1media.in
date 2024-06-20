@@ -35,8 +35,8 @@ export const MyFooter = () => {
                 <p className="mt-2">
                   S1Media is a dynamic media company dedicated to helping
                   businesses in the real estate, restaurant, culinary,
-                  hospitality, and agricultural sectors enhance their online
-                  presence.
+                  hospitality, and updates on new and old cars & bikes and their
+                  deals, enhance their online presence.
                 </p>
               </Col>
 
