@@ -27,7 +27,7 @@ export const HomePage = () => {
       <Slide>
         <Hero
           title="We get audiences"
-          content="Welcome to the premium video platform for today's advertisers. This is your brand's chance to connect with hard-to-reach audiences at scale, align with powerful pop culture moments, and gain access to data and marketing support that deliver proven business outcomes - all in a brand safe environment tied to the world's best content. It's everything plus the popcorn."
+          content="Welcome to the premium video platform for today's advertisers. This is your brand's chance to connect with hard-to-reach audiences at scale, align with powerful pop culture moments, and gain access to data and marketing support that deliver proven business outcomes - all in a brand safe environment tied to the world's best content."
           img="audience.jpeg"
         />
       </Slide>
