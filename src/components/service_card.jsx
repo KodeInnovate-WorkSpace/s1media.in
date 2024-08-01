@@ -28,16 +28,10 @@ export const ServiceCard = () => {
     },
 
     {
-      // title: "Hotels (3-star, 4-star, 5-star)",
-      title: "Royalz Hotels 3-star, 4-star property",
-      desc: "Virtual tours of hotel facilities and highlighting services and guest experience",
+      title: "The Multi Business",
+      desc: "Capturing the essence of your business, one frame at a time. We cater multiple businesses",
       image: "hotel.jpeg",
     },
-    // {
-    //   title: "Agriculture",
-    //   desc: "Documenting agricultural processes and products and showcasing innovative farming techniques",
-    //   image: "agriculture.jpeg",
-    // },
   ];
 
   return (
