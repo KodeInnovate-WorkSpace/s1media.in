@@ -78,7 +78,7 @@ export const MyFooter = () => {
 
               <Col md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <p>Mahape Road</p>
+                <p>Kalyan Phata Near HP Petrol Pump</p>
                 <p>info@s1media.in</p>
                 <p>+91 8291492129</p>
               </Col>
