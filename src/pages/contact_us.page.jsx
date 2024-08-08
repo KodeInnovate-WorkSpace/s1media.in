@@ -12,7 +12,7 @@ const ContactDetails = () => {
     {
       icon: <FaMapMarkerAlt />,
       label: "Office:",
-      value: "Mahape Road",
+      value: "Kalyan Phata Near HP Petrol Pump",
     },
     {
       icon: <FaPhone />,
