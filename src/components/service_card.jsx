@@ -28,7 +28,7 @@ export const ServiceCard = () => {
     },
 
     {
-      title: "The Multi Business",
+      title: "The Multi Businesses",
       desc: "Capturing the essence of your business, one frame at a time. We cater multiple businesses",
       image: "hotel.jpeg",
     },
