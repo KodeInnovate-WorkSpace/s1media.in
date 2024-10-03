@@ -7,7 +7,7 @@ import ReverseHero from "./reverse_hero";
 export const ServiceCard = () => {
   const serviceInfo = [
     {
-      title: "Deal Done Brokers",
+      title: "Deal Done Properties",
       desc: "Video tours of properties and Highlighting uniue features and amenities",
       image: "real_estate.jpeg",
     },
@@ -22,7 +22,7 @@ export const ServiceCard = () => {
       image: "autoz.png",
     },
     {
-      title: "The Foodizz",
+      title: "Taste n Talk",
       desc: "Step-by-step cooking videos and featuring professional chefs and home cooks",
       image: "cooking_tips.jpeg",
     },
